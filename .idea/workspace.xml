@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9e19f5d-510e-4c5e-a1cc-a6ec991494b8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1XVf0CrX8Sq7bQUP8IpVQnr3XWZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build crawler" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="crawler" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseProfile in crawler/zhenai/parser (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <working_directory value="$PROJECT_DIR$/zhenai/parser" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="crawler/zhenai/parser" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestParseProfile$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseProfile in crawler/zhenai/parser" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <working_directory value="$PROJECT_DIR$/zhenai/parser" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="crawler/zhenai/parser" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestParseProfile$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="profile_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crawler" />
+      <working_directory value="$PROJECT_DIR$/zhenai/parser" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="crawler" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/zhenai/parser/profile_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build crawler" />
+        <item itemvalue="Go Test.profile_test.go" />
+        <item itemvalue="Go Test.TestParseProfile in crawler/zhenai/parser (1)" />
+        <item itemvalue="Go Test.TestParseProfile in crawler/zhenai/parser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>goproxy.cn,direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="98" key="#Vim_Emulation" timestamp="1581142906838">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="367" y="98" key="#Vim_Emulation/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581142906838" />
+    <state x="506" y="96" key="#go_build_crawler" timestamp="1581308178207">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="506" y="96" key="#go_build_crawler/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581308178207" />
+    <state x="446" y="234" key="EditFileWatcherDialog" timestamp="1581577876311">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="446" y="234" key="EditFileWatcherDialog/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581577876311" />
+    <state width="1506" height="226" key="GridCell.Tab.0.bottom" timestamp="1581585468003">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="226" key="GridCell.Tab.0.bottom/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581585468003" />
+    <state width="1506" height="226" key="GridCell.Tab.0.center" timestamp="1581585468003">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="226" key="GridCell.Tab.0.center/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581585468003" />
+    <state width="1506" height="226" key="GridCell.Tab.0.left" timestamp="1581585468003">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="226" key="GridCell.Tab.0.left/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581585468003" />
+    <state width="1506" height="226" key="GridCell.Tab.0.right" timestamp="1581585468003">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state width="1506" height="226" key="GridCell.Tab.0.right/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581585468003" />
+    <state x="286" y="82" key="SettingsEditor" timestamp="1581577877582">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="286" y="82" key="SettingsEditor/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581577877582" />
+    <state x="423" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581323034947">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="423" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581323034947" />
+    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup" timestamp="1581153044445">
+      <screen x="0" y="0" width="1549" height="871" />
+    </state>
+    <state x="437" y="183" width="672" height="678" key="search.everywhere.popup/0.0.1549.871/-1920.0.1549.871@0.0.1549.871" timestamp="1581153044445" />
+  </component>
+</project>
