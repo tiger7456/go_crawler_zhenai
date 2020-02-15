@@ -8,11 +8,14 @@ import (
 )
 
 func main() {
-
+	itemChan, err := data.ItemSaver()
+	if err != nil {
+		panic(err)
+	}
 	e := engine.ConcurrentEngine{
 		Scheduler:   &scheduler.QueuedScheduler{},
 		WorkerCount: 100,
-		ItemChan:    data.ItemSaver(),
+		ItemChan:    itemChan,
 	}
 	// 爬取珍爱网
 	e.Run(engine.Request{

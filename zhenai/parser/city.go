@@ -14,10 +14,13 @@ func ParseCity(contents []byte) engine.ParseResult {
 
 	result := engine.ParseResult{}
 	for _, m := range matches {
+		url := m[1]
 		result.Requests = append(
 			result.Requests, engine.Request{
-				Url:        m[1],
-				ParserFunc: ParseProfile,
+				Url: m[1],
+				ParserFunc: func(content []byte) engine.ParseResult {
+					return ParseProfile(content, url)
+				},
 			})
 	}
 	re = regexp.MustCompile(cityUrlRe)

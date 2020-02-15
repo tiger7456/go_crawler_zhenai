@@ -16,7 +16,7 @@ import (
 )
 
 // 限流爬取
-var rateLimiter = time.Tick(300 * time.Millisecond)
+var rateLimiter = time.Tick(200 * time.Millisecond)
 
 func Fetch(url string) ([]byte, error) {
 	<-rateLimiter

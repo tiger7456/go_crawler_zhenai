@@ -10,8 +10,9 @@ import (
 )
 
 const profileRe = `__INITIAL_STATE__=(.+);\(function`
+const urlRe = `http://album.zhenai.com/u/([\d]+)`
 
-func ParseProfile(content []byte) engine.ParseResult {
+func ParseProfile(content []byte, url string) engine.ParseResult {
 	profile := model.Profile{}
 	re := regexp.MustCompile(profileRe)
 	match := re.FindStringSubmatch(string(content))
@@ -33,8 +34,21 @@ func ParseProfile(content []byte) engine.ParseResult {
 	profile.Occupation = objectInfo.Get("basicInfo.6").String()
 	profile.Xinzuo = objectInfo.Get("basicInfo.2").String()
 
+	re = regexp.MustCompile(urlRe)
+	match = re.FindStringSubmatch(string(url))
+	var id string
+	if len(match) > 1 {
+		id = match[1]
+	}
 	result := engine.ParseResult{
-		Items:    []interface{}{profile},
+		Items: []engine.Item{
+			{
+				Url:     url,
+				Type:    "zhenai",
+				Id:      id,
+				Payload: profile,
+			},
+		},
 		Requests: nil,
 	}
 	return result
